@@ -9,6 +9,7 @@ public class Main {
 
         System.out.println("Välj alternativ:");
         int choice = scanner.nextInt();
+        scanner.nextLine();
         try {
 
         if (choice == 1){
